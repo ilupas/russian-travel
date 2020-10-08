@@ -1,0 +1,6 @@
+.cover__image{
+  width: 1184px;
+  margin: 0 auto 0;
+  grid-column: 1/1;
+  grid-row: 1/1;
+}

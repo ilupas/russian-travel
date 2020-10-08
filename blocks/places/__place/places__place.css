@@ -1,0 +1,7 @@
+.places__place{
+  display: grid;
+  grid-template-columns: 460px 484px;
+  grid-template-rows:  max-content minmax(460px, 1fr);
+  gap: 40px;
+  justify-content: center;
+}
