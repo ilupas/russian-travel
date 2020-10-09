@@ -3,3 +3,18 @@
   line-height: 76px;
   margin-bottom: 8px;
 }
+
+@media screen and (max-width: 768px) {
+  .places__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__title {
+    font-size: 32px;
+    line-height: 35px;
+    Margin-bottom: 32px;
+  }
+}

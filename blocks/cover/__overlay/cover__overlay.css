@@ -11,3 +11,27 @@
 .cover__overlay:hover {
   opacity: 0.8;
 }
+
+@media screen and (max-width: 1024px) {
+  .cover__overlay {
+    width: 1024px;
+    margin-left: -48px;
+    margin-right: -48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__overlay {
+    width: 768px;
+    margin-left: -24px;
+    margin-right: -24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__overlay {
+    width: 320px;
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+}

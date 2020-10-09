@@ -4,4 +4,30 @@
   grid-template-rows:  max-content minmax(460px, 1fr);
   gap: 40px;
   justify-content: center;
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__place {
+    grid-template-columns: 440px 456px;
+    grid-template-rows:  max-content minmax(460px, 1fr);
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .places__place {
+    grid-template-columns: 340px 452px;
+    grid-template-rows:  max-content minmax(460px, 1fr);
+    margin-bottom: 72px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__place {
+    grid-template-columns: 288px;
+    grid-template-rows:  max-content;
+    margin-bottom: 62px;
+    gap: 0;
+  }
 }

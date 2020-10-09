@@ -2,3 +2,27 @@
   margin: -524px auto calc(262px + 8px);
   width: 937px;
 }
+
+@media all and (max-width: 1024px) {
+  .lead__map {
+    width: 835px;
+    margin: -524px auto calc(262px + 8px);
+  }
+}
+
+@media all and (max-width: 768px) {
+  .lead__map {
+    width: 690px;
+    margin: -424px auto 168px;
+    margin-left: -24px;
+    margin-right: -24px;
+  }
+}
+@media all and (max-width: 320px) {
+  .lead__map {
+    width: 288px;
+    margin: -270px auto 16px;
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+}

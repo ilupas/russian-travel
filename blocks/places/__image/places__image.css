@@ -1,4 +1,25 @@
-.places__image{
+.places__image {
   width: 460px;
-  margin-bottom: 80px;
+
+}
+
+@media screen and (max-width: 1024px) {
+  .places__image {
+    width: 440px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places__image {
+    width: 340px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__image {
+    width: 320px;
+    margin-bottom: 32px;
+    margin-left: -16px;
+    margin-right: -16px;
+  }
 }
