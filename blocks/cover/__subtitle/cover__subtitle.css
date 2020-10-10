@@ -9,12 +9,6 @@
   z-index: 2;
 }
 
-@media screen and (max-width: 1024px) {
-  .cover__subtitle {
-    /* margin-top: calc(360px + 32px); */
-  }
-}
-
 @media screen and (max-width: 768px) {
   .cover__subtitle {
     /* margin-top: calc(260px + 32px); */

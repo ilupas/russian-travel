@@ -5,22 +5,3 @@
   position: absolute;
   left: 0; top: 1vw; right: 0; bottom: 0;
 }
-
-@media all and (max-width: 1024px) {
-  .lead__map {
-    /* margin: -524px auto calc(262px + 8px); */
-  }
-}
-
-@media all and (max-width: 768px) {
-  .lead__map {
-    /* margin: -60% auto 168px; */
-
-  }
-}
-@media all and (max-width: 320px) {
-  .lead__map {
-    /* margin: -60% auto 16px; */
-
-  }
-}
