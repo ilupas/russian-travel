@@ -5,3 +5,7 @@ line-height: 28px;
   text-decoration: unset;
   margin-left: 18px;
 }
+
+.header__land-link:hover {
+  opacity: 0.8;
+}
