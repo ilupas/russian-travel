@@ -1,28 +1,26 @@
 .lead__map{
-  margin: -524px auto calc(262px + 8px);
-  width: 937px;
+  margin: 0 auto 0;
+  /* width: 937px; */
+  width: 90%;
+  position: absolute;
+  left: 0; top: 1vw; right: 0; bottom: 0;
 }
 
 @media all and (max-width: 1024px) {
   .lead__map {
-    width: 835px;
-    margin: -524px auto calc(262px + 8px);
+    /* margin: -524px auto calc(262px + 8px); */
   }
 }
 
 @media all and (max-width: 768px) {
   .lead__map {
-    width: 690px;
-    margin: -424px auto 168px;
-    margin-left: -24px;
-    margin-right: -24px;
+    /* margin: -60% auto 168px; */
+
   }
 }
 @media all and (max-width: 320px) {
   .lead__map {
-    width: 288px;
-    margin: -270px auto 16px;
-    margin-left: -8px;
-    margin-right: -8px;
+    /* margin: -60% auto 16px; */
+
   }
 }
