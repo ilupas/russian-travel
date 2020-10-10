@@ -1,7 +1,9 @@
-.lead__map{
+.lead__map {
   margin: 0 auto 0;
-  /* width: 937px; */
   width: 90%;
   position: absolute;
-  left: 0; top: 1vw; right: 0; bottom: 0;
+  left: 0;
+  top: 1vw;
+  right: 0;
+  bottom: 0;
 }
