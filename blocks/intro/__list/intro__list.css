@@ -3,5 +3,14 @@
   font-size: 12px;
   line-height: 18px;
   padding-inline-start: 0;
-  font-weight: 400;
+  font-weight: bold;
+  
+  width: 690px;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .intro__list {
+    width: 288px;
+  }
 }

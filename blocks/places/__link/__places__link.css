@@ -2,16 +2,9 @@
   color: #ffffff;
   font-size: 18px;
   line-height: 22px;
-  margin-bottom: 8px;
   width: 100%;
 }
 
 .places__link:hover {
   opacity: 0.8;
-}
-
-@media screen and (max-width: 768px) {
-  .places__link {
-    font-size: 3vw;
-  }
 }

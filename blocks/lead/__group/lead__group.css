@@ -1,7 +1,6 @@
-.lead__group4{
+.lead__group {
   display: flex;
   flex-direction: column;
-  /* width: 984px; */
   width: 100%;
   margin: 0 auto 0;
   position: relative;
