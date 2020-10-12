@@ -9,9 +9,7 @@
 
 @media all and (max-width: 1023px) {
   .lead__title {
-    font-size: 96px;
     line-height: 100px;
-    margin-bottom: 32px;
     max-width: 100%;
   }
 }
@@ -21,6 +19,5 @@
     font-size: 40px;
     line-height: 1.1;
     margin-bottom: 16px;
-    max-width: 100%;
   }
 }

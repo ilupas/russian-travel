@@ -14,7 +14,7 @@
         margin-bottom: 88px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 14px;
-    width: calc(100% - 24px * 2);
+    width: calc(100% - 48px * 2);
   }
 }
 

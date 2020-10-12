@@ -1,14 +1,22 @@
 .places__paragraph {
   font-size: 18px;
   line-height: 1.6;
-  margin-bottom: 24px;
+  margin: 0 auto 0;
+}
+
+.places__paragraph:first-child {
+  margin: 0 auto 24px;
 }
 
 @media screen and (max-width: 1023px) {
   .places__paragraph {
     font-size: 16px;
     line-height: 163%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places__paragraph {
     width: calc(100% - 16px * 2);
-    /* margin: 0 auto; */
   }
 }
