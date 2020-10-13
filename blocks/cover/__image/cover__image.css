@@ -1,0 +1,8 @@
+.cover__image{
+  visibility: hidden;
+  width: 100%;
+  /* overflow: hidden; */
+  /* position: absolute; */
+  grid-column: 1/1;
+  grid-row: 1/1;
+}

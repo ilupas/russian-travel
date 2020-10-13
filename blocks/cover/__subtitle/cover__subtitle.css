@@ -2,8 +2,10 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
+  align-self: center;
+  justify-self: center;
   width: 360px;
-  margin: 0;
+  margin: 10px;
   z-index: 2;
 }
 
